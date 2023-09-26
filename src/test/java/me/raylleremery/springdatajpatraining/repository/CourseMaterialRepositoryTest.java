@@ -16,12 +16,12 @@ class CourseMaterialRepositoryTest {
     public void saveCourseMaterial() {
         var course =
                 Course.builder()
-                        .title("JPA")
+                        .title("DSA")
                         .credit(6)
                         .build();
         var courseMaterial =
                 CourseMaterial.builder()
-                        .url("www.google.com")
+                        .url("www.codecamp.com")
                         .course(course)
                         .build();
 
